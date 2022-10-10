@@ -1,0 +1,226 @@
+/*               -----------------------------HEADER------------------------------                   */
+
+header {
+    border-bottom: rgba(218, 218, 218, 0.77) 2px solid;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.lapiz,
+.cruz {
+    font-size: 25px;
+    color: black;
+}
+
+/*    BARRA    */
+
+header .barra {
+    overflow: hidden;
+    background-color: rgb(44, 44, 44);
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+}
+
+header .barra .programa {
+    display: inline-flex;
+    float: left;
+    padding-left: 10px;
+}
+
+header .barra .programa .logo {
+    height: 60px;
+}
+
+header .barra .programa .textoPrograma {
+    color: white;
+    line-height: 58px;
+}
+
+header .barra .boton {
+    float: right;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+
+/*    BANNER    */
+
+header .banner {
+    position: relative;
+}
+
+header .banner .img-banner {
+    position: absolute;
+    z-index: -1;
+    top: 54px;
+    padding: 20px;
+    width: 100%;
+    height: 400px;
+
+}
+
+header .banner .imgBanner .lapiz {
+    position: absolute;
+    top: 90px;
+    left: 1450px;
+}
+
+header .banner #editarPagina {
+    position: absolute;
+    top: 385px;
+    right: 3%;
+    background-color: white;
+    color: black;
+}
+
+/*    INFO    */
+
+header .info {
+    position: relative;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 540px;
+    display: inline-flex;
+}
+
+header .info .img-perfil {
+    position: absolute;
+    left: 4%;
+    bottom: 200px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+header .info .imgPerfil .lapiz {
+    position: absolute;
+    bottom: 250px;
+    left: 125px;
+}
+
+header .info .datosPerfil {
+    position: relative;
+    float: left;
+    padding-right: 60px;
+    text-align: center;
+    width: 35%;
+}
+
+header .info .datosPerfil .lapiz {
+    position: absolute;
+    left: 85%;
+    bottom: 160px;
+}
+
+header .info .datoProfesional {
+    text-align: justify;
+    position: relative;
+    bottom: 10px;
+}
+
+header .info .datoProfesional .lapiz {
+    position: absolute;
+    left: 90%;
+    bottom: 140px;
+}
+
+header .info .datoProfesional .cruz {
+    position: absolute;
+    left: 94%;
+    bottom: 140px;
+}
+
+/*               -----------------------------SECTION------------------------------                   */
+
+section {
+    position: relative;
+}
+
+section .experiencia,
+.educacion,
+.habilidades,
+.proyectos {
+    border-bottom: rgba(218, 218, 218, 0.77) 2px solid;
+}
+
+/*    EXPERIENCIA    */
+
+section .experiencia {
+    padding-top: 15px;
+    padding-left: 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+section .experiencia .empleos {
+    padding-top: 30px;
+}
+
+section .experiencia .empleos #empleo {
+    padding-right: 30%;
+    margin-bottom: 90px;
+}
+
+section .experiencia .empleos #empleo img {
+    height: 150px;
+    float: left;
+}
+
+section .experiencia .empleos #empleo .infoEmpleo {
+    padding-left: 30%;
+}
+
+section .experiencia .empleos #empleo .lapiz {
+    position: absolute;
+    left: 63%;
+    bottom: 230px;
+}
+
+section .experiencia .empleos #empleo .cruz {
+    position: absolute;
+    left: 67%;
+    bottom: 230px;
+}
+
+/*    EDUCACION    */
+
+section .educacion {
+    padding-top: 15px;
+    padding-left: 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+section .educacion .instituciones {
+    padding-top: 30px;
+}
+
+section .educacion .instituciones #institucion {
+    padding-right: 30%;
+    margin-bottom: 90px;
+}
+
+section .educacion .instituciones #institucion img {
+    height: 150px;
+    float: left;
+}
+
+section .educacion .instituciones #institucion .infoInstitucion {
+    padding-left: 30%;
+}
+
+section .educacion .instituciones #institucion .lapiz {
+    position: absolute;
+    left: 63%;
+    bottom: 230px;
+}
+
+section .educacion .instituciones #institucion .cruz {
+    position: absolute;
+    left: 67%;
+    bottom: 230px;
+}
